@@ -37,6 +37,21 @@ bestRated_btn.addEventListener('click', function () {
     
 });
 
+let menu = document.querySelector('.navbar .menu .categories')
+let addressMenu = document.querySelector('.navbar .Address-Menu')
+console.log(menu);
+console.log(addressMenu);
+
+
+
+menu.addEventListener('click', ()=>{
+  if(addressMenu.classList.contains('dis-menu')){
+    addressMenu.classList.replace('dis-menu','d-none')
+  }else{
+    addressMenu.classList.add('dis-menu')
+  }
+})
+
 
 var featured_btnNew = document.querySelector(`.newArrival .featured-btn`);
 var onSale_btnNew = document.querySelector(`.newArrival .onSale-btn`);
