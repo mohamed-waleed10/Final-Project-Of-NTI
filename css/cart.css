@@ -1,0 +1,154 @@
+section{
+    /* background-color: rgba(0, 153, 204, 0.61); */
+
+}
+nav {
+    border-bottom: 3px solid #212529;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin-top: 15px;
+}
+#list{
+    margin-left: 50px;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+}
+.container ul li a{
+    font-size: 25px;
+    background-color: #e37373;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    border: 3px solid #e37373;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    transition: 0.5s;
+
+}
+.container ul li a:hover{
+    background: transparent;
+    color: #e37373;
+    box-shadow: none,
+}
+.btn{
+    display: block;
+    padding: 5px  10px;
+    outline: 0;
+    border: 0;
+    background-color: greenyellow;
+    border: 3px solid greenyellow;
+    color: #fff;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.5s;
+    color: #212529;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    color: greenyellow;
+}
+.neg{
+    background-color: #2cb1de;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 3px solid #2cb1de;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    transition: 0.5s
+}
+.neg:hover{
+    background: #fff;
+    color: #2cb1de;
+}
+.plus{
+    background-color: #2cb1de;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 3px solid #2cb1de;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    transition: 0.5s
+}
+.plus:hover{
+    background: #fff;
+    color: #2cb1de;
+}
+.table-responsive{
+    margin: 20px auto;
+    overflow: auto;
+}
+table{
+    width: 100%;
+    min-width: 800px;
+    padding: 10px;
+    background: rgba(0, 153, 204, 0.734);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-top: 3px solid #212529;
+
+}
+thead th{
+    color: white;
+}
+tbody tr td{
+    text-align: center;
+    color: white;
+}
+tbody tr td img{
+    width: 70px;
+    height: 70px;
+}
+.btn.delete{
+    background-color: #e37373;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    border: 3px solid #e37373;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+    transition: 0.5s;
+}
+.btn.delete:hover{
+    background: transparent;
+    color: #e37373;
+    box-shadow: none,
+}
+.btn.add:hover{
+    background-color: #554edd8a;
+}
+.neg ,.plus{
+    padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.count{
+    padding: 5px 10px;
+    width: 40px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
