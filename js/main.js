@@ -465,15 +465,15 @@ async function getnumOfCartItems() {
   });
 
   let result = await res.json();
-
   let numOfCartItems = result.numOfCartItems;
   let totalprice=result.data.totalCartPrice;
+  console.log('function numcart',result)
   let num = document.querySelector(".wish-cart .cart .num-cart");
   let total= document.querySelector(".wish-cart .cart .cart-price span");
-  if (num) {
+  if (result.status=='success') {
     num.innerHTML = numOfCartItems;
     total.innerHTML=`$ ${totalprice}`
-  }
+  }
 }
 getnumOfCartItems();
 
@@ -488,12 +488,11 @@ async function getnumOfwishItems() {
 
   let result = await res.json();
   let numofwishlist = result.count;
-  console.log("numofwishlist", numofwishlist);
-
+  console.log('function numwish',result)
   let numw = document.querySelector(".wish-cart  .num-wish");
-  if (numw) {
+  if (result.status=='success') {
     numw.innerHTML = numofwishlist;
-  }
+  }
 }
 
 getnumOfwishItems();
