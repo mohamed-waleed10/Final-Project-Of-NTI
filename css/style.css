@@ -74,7 +74,7 @@ header {
 }
 .container .search-bar select {
   appearance: none;
-  width: 25%;
+  width: 30%;
 }
 .container .search-bar button {
   border: none;
@@ -631,9 +631,9 @@ main .features .container .feature {
 .cards .tabs button:hover {
   opacity: 1;
 }
-.cards .tabs .featured-btn{
+/* .cards .tabs .featured-btn{
   border-bottom: 3px solid #2cb1de;
-}
+} */
 
 .cards .feature-list {
   padding: 12px 8px;
@@ -1009,8 +1009,6 @@ main .features .container .feature {
 }
 .newArrival .cards {
   width: 67%;
-  /* height: 100%; */
-  /* background-color: aqua; */
 }
 .cards .cards-container {
   padding: 0 24px;
@@ -1163,9 +1161,6 @@ main .features .container .feature {
   }
 }
 @media screen and (max-width: 769px) and (min-width: 576px) {
-  /* .newArrival{
-        height: 1900px;
-    } */
   .newArrival .container {
     padding: 0 5%;
     flex-direction: column;
@@ -1184,10 +1179,6 @@ main .features .container .feature {
   }
 }
 @media screen and (max-width: 576px) {
-  /* .newArrival{
-        height: 3020px;
-        padding: 0;
-    } */
   .newArrival .container {
     padding: 0 5%;
     flex-direction: column;
